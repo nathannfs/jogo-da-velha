@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: greenyellow;
+  font-size: 50px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+.O {
+  position: relative;
+}
+
+.O:after {
+  position: absolute;
+  content: 'Ⅹ';
+  font-size: 150px;
+  line-height: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.X {
+  position: relative;
+}
+
+.X:after {
+  position: absolute;
+  content: '◯';
+  font-size: 150px;
+  line-height: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
